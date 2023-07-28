@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMAGE GALLERY - CSS GRID</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        body {
+            padding: 10px;
+            text-align: center;
+        }
+        
+        .gallery {
+            margin: 15px auto;
+            border: solid 3px black;
+            width: 50%;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            line-height: 0;
+        }
+        
+        img {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>MY IMAGE GALLERY</h1>
+    <ul class="gallery">
+        <li type="none"><img src="IMAGE GALLERY/1.jpg" alt=""></li>
+        <li type="none"><img src="IMAGE GALLERY/2.jpg" alt=""></li>
+        <li type="none"><img src="IMAGE GALLERY/3.jpg" alt=""></li>
+        <li type="none"><img src="IMAGE GALLERY/4.jpg" alt=""></li>
+        <li type="none"><img src="IMAGE GALLERY/5.jpg" alt=""></li>
+        <li type="none"><img src="IMAGE GALLERY/6.jpg" alt=""></li>
+        <li type="none"><img src="IMAGE GALLERY/7.jpg" alt=""></li>
+        <li type="none"><img src="IMAGE GALLERY/8.jpg" alt=""></li>
+        <li type="none"><img src="IMAGE GALLERY/9.jpg" alt=""></li>
+        <li type="none"><img src="IMAGE GALLERY/10.jpg" alt=""></li>
+    </ul>
+    </ul>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID AREA & GRID GAP</title>
+
+    <style>
+        html,
+        body {
+            padding: 0;
+            margin: 0;
+            background-color: grey;
+        }
+        
+        .container {
+            margin: 50px auto;
+            border: solid 3px black;
+            box-sizing: border-box;
+            height: 1000px;
+            width: 80%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            align-items: center;
+            justify-items: center;
+        }
+        
+        .container div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 500px;
+        }
+        
+        .header {
+            background-color: lightskyblue;
+        }
+        
+        .sidebar {
+            background-color: salmon;
+        }
+        
+        .content {
+            background-color: limegreen;
+        }
+        
+        .footer {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>HEADER</h1>
+        </div>
+        <div class="sidebar">
+            <H1>SIDEBAR</H1>
+        </div>
+        <div class="content">
+            <H1>CONTENT</H1>
+        </div>
+        <div class="footer">
+            <H1>FOOTER</H1>
+        </div>
+
+        <!-- <div class="item">
+            <p>5</p>
+        </div>
+        <div class="item">
+            <p>6</p>
+        </div>
+        <div class="item">
+            <p>7</p>
+        </div>
+        <div class="item">
+            <p>8</p>
+        </div>
+        <div class="item">
+            <p>9</p> -->
+    </div>
+    </div>
+</body>
+
+</html>

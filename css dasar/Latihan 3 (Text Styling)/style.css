@@ -1,0 +1,19 @@
+h1 {
+    font-size: 50px;
+    color: darkgoldenrod;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 25px;
+    color: black;
+    text-align:center;
+    text-indent: 5px;
+    text-decoration: overline;
+    text-transform: none;
+    letter-spacing: normal;
+    word-spacing: normal;
+
+}

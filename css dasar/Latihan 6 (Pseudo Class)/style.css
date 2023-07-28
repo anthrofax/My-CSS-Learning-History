@@ -1,0 +1,38 @@
+/* Tanda ":" harus berdempetan dengan kata sebelum & sesudahnya, jika tidak,
+pseudo class tidak akan aktif */
+
+.hello:link {
+    color: red;
+}
+
+.hello:hover {
+    color: green;
+}
+
+.hello:active {
+    color: aqua;
+}
+
+.hello:visited {
+    color: black;
+}
+
+li:first-child a:visited {
+    color: red;
+}
+
+li:last-child a:visited {
+    color: green;
+}
+
+li:nth-child(3n-2) a:visited {
+    color: blue;
+}
+
+p:first-of-type {
+    color: red;
+}
+
+p:last-of-type {
+    color: aqua;
+}

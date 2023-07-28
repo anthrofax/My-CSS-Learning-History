@@ -1,0 +1,25 @@
+/* SELECTOR PADA HTML MENGGUNAKAN ID & CLASS */
+/* JIKA ID, PENSELECTOR NYA MENGGGUNAKAN "#" EXAMPLE : "#P2" */
+/* JIKA CLASS, PENSELECTORNYA MENGGUNAKAN "." EXAMPLE : ".P2" */
+
+body {background-image: url(bg1.jpeg);}
+
+h1 {font-family: "comic sans ms";
+font-size: 50px;
+color: chartreuse;
+} 
+
+ul li a {color: chartreuse;}
+
+h2 {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 25px;
+color: aqua;}
+
+ol li a {color: red;}
+
+p {color: white;}
+
+.lol {color: red;
+}
+
+p.cetak-tebal {color: green;}

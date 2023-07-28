@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>CSS DISPLAY</title>
+    <style>
+        body {
+            background-color: #48a645;
+        }
+        
+        .navigasi h2 {
+            color: white;
+        }
+        
+        .heading {
+            color: white;
+            font-size: 30px;
+        }
+        
+        li a:visited {
+            color: black;
+        }
+        
+        .main {
+            width: 1200px;
+            background-color: #48a645;
+        }
+        
+        #main h2 {
+            color: white;
+            background-color: red;
+            /* karena lebar/width parent dari
+            div=main sudah diatur menjadi 1200px, maka background warna 
+            merahnya hanya sampai 1200px, tidak memenuhi browser, karena
+            sifat default dari elemen yang memiliki display block yang
+            lebarnya akan mengikuti dari browser/parentnya*/
+        }
+        
+        span.huh {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="heading">
+        <h1>Selamat Datang Di Website Kami</h1>
+    </div>
+
+    <div class="navigasi">
+        <h2>Daftar Isi Website</h2>
+        <ul type="circle">
+            <li><a href="#main">Daftar Isi</a></li>
+            <li><a href="">Pembuka</a></li>
+            <li><a href="">Isi</a></li>
+            <li><a href="">Penutup</a></li>
+            <li><a href="">Daftar Pustaka</a></li>
+        </ul>
+    </div>
+
+    <div id="main">
+        <h2>Judul Artikel</h2>
+        <img src="qwe.jpeg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate repellendus alias nam velit, deserunt cumque distinctio tempore temporibus <span>nemo eaque quasi praesentium!
+            Debitis provident perferendis sequi</span> possimus mollitia necessitatibus ex!</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis <span class="huh">suscipit deserunt quos.</span> Necessitatibus fugiat vero nulla optio quam nam minus placeat deserunt tempora, dolores enim, ullam temporibus, fugit aliquam?</p>
+    </div>
+
+    <div class="copyright">
+        <p>Copyright 2015. Web Programming UNPAS</p>
+    </div>
+
+</body>
+
+</html>

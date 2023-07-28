@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Static & Relative - Position</title>
+    <style>
+        body {
+            height: 2000px;
+        }
+        
+        div {
+            width: 200px;
+            height: 200px;
+        }
+        
+        .popup {
+            height: 30px;
+            background-color: black;
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+        }
+        
+        .satu {
+            background-color: lightgreen;
+        }
+        
+        .dua {
+            background-color: violet;
+            position: relative;
+            top: 20px;
+        }
+        
+        .tiga {
+            background-color: gold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="popup"></div>
+
+    <div class="satu"></div>
+    <div class="dua"></div>
+    <div class="tiga"></div>
+</body>
+
+</html>
